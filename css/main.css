@@ -10,6 +10,7 @@ body{
 }
 header{
   position: relative;
+  height: 100vh;
 }
 header .container{
   display: flex;
@@ -204,7 +205,7 @@ header .hero .content-hero .img-hero {
 @media (max-width:609px) {
   header nav .links ul li .fa-bars {
     display: block;
-}}
+}
 header nav .links ul .active{
   display: none;
 }
@@ -221,12 +222,13 @@ header .hero .content-hero .img-hero {
 header .hero .content-hero .text-hero h1 {
   font-size: 35px
 }
+}
+
 
 
 .input{
     width: 100%;
     background-color: #00B98E;
-    position: absolute;
     bottom: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
