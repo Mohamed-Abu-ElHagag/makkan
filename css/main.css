@@ -27,6 +27,7 @@ header nav {
   height: 70px;
   background-color: #ffffff;
   position: fixed;
+  z-index: 99999;
 }
 header nav .containerNav {
   display: flex;
@@ -330,6 +331,49 @@ header .hero .content-hero .text-hero h1 {
     padding: 20px;
     position: relative;
     transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about .contanier .row1 .about1 .inside2{
+    width: 100%;
+    border: 1px dashed #63e499;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about .contanier .row1 .about1 .inside3{
+    width: 100%;
+    border: 1px dashed #63e499;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about .contanier .row1 .about1 .inside4{
+    width: 100%;
+    border: 1px dashed #63e499;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 .about .contanier .row1 .about1 .inside1 .img {
@@ -338,7 +382,11 @@ header .hero .content-hero .text-hero h1 {
     border-radius:50%;
     border: 1px dashed #63e499;
     text-align: center;
-    margin-left: 55px;
+    /* margin-left: 55px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -386,6 +434,10 @@ header .hero .content-hero .text-hero h1 {
     padding: 20px;
     position: relative;
     transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 .about .contanier .row1 .about1 .inside2 .img {
@@ -394,7 +446,10 @@ header .hero .content-hero .text-hero h1 {
     border-radius:50%;
     border: 1px dashed #63e499;
     text-align: center;
-    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -450,7 +505,10 @@ header .hero .content-hero .text-hero h1 {
     border-radius:50%;
     border: 1px dashed #63e499;
     text-align: center;
-    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -506,7 +564,10 @@ header .hero .content-hero .text-hero h1 {
     border-radius:50%;
     border: 1px dashed #63e499;
     text-align: center;
-    margin-left: 55px;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -579,6 +640,49 @@ header .hero .content-hero .text-hero h1 {
     padding: 20px;
     position: relative;
     transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about .contanier .row2 .about1 .inside2{
+    width: 100%;
+    border: 1px dashed #63e499;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about .contanier .row2 .about1 .inside3{
+    width: 100%;
+    border: 1px dashed #63e499;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about .contanier .row2 .about1 .inside4{
+    width: 100%;
+    border: 1px dashed #63e499;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 .about .contanier .row2 .about1 .inside1 .img {
@@ -587,7 +691,10 @@ header .hero .content-hero .text-hero h1 {
     border-radius:50%;
     border: 1px dashed #63e499;
     text-align: center;
-    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -643,7 +750,10 @@ header .hero .content-hero .text-hero h1 {
     border-radius:50%;
     border: 1px dashed #63e499;
     text-align: center;
-    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -699,7 +809,10 @@ header .hero .content-hero .text-hero h1 {
     border-radius:50%;
     border: 1px dashed #63e499;
     text-align: center;
-    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -755,7 +868,10 @@ header .hero .content-hero .text-hero h1 {
     border-radius:50%;
     border: 1px dashed #63e499;
     text-align: center;
-    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
     
 }
