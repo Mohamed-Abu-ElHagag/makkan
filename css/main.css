@@ -67,7 +67,7 @@ header nav .links ul li a {
   text-decoration: none;
   color: black;
   font-size: small;
-  transition: all .5s;
+  transition: all .2s;
 }
 header nav .links ul li a:hover {
   color: #00B98E;
@@ -80,7 +80,7 @@ header nav .links ul li button {
     height: 50px;
     border-radius: 4px;
     cursor: pointer;
-    transition:all .5s;
+    transition:all .2s;
 }
 header nav .links ul li button:hover {
       background-color: #05d4a4;
@@ -90,6 +90,7 @@ header nav .links .icon-bar{
 }
 header .hero {
   height: 80vh;
+ 
 }
 header .hero .content-hero {
   height: 100%;
@@ -100,6 +101,7 @@ header .hero .content-hero .text-hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
+ margin-top: 50px;
 }
 header .hero .content-hero .text-hero .content-text-hero {
   width: 75%;
@@ -108,13 +110,14 @@ header .hero .content-hero .text-hero .content-text-hero {
 header .hero .content-hero .text-hero h1 {
   color: #0e2e50;
   font-size: 50px;
-  margin-bottom: 18px;
+  margin-top:90px;
+  
 }
 header .hero .content-hero .text-hero p {
   color: #666565;
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 18px;
+  margin-top: 35px;
 }
 header .hero .content-hero .text-hero button {
   background-color: #00B98E;
@@ -125,17 +128,18 @@ header .hero .content-hero .text-hero button {
   border-radius: 4px;
   transition: all .5s;
   cursor: pointer;
+  margin-top: 70px;
 }
 header .hero .content-hero .text-hero button:hover {
   background-color: #05d4a4;
 }
 
-header .hero .content-hero .text-hero .highlight-green {
+header .hero .content-hero .text-hero #highlight-green {
   color: #00b98e;
 }
 header .hero .content-hero .img-hero {
   width: 50%;
-  height: 100%;
+  height: 100vh;
 }
 header .hero .content-hero .img-hero img {
   width: 100%;
