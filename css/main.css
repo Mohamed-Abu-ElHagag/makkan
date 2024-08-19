@@ -1815,4 +1815,72 @@ header .hero .content-hero .img-hero img {
 
     margin-top: 20px;
 }
+.style-contact{
+  text-align: center;
+  border-radius: 5px;
+  
+  display: flex;
+  padding: 0;
+  box-sizing: border-box;
+ background-color: #00B98E;
+}
+ .contact{
+  display: flex;
+  justify-content: space-around;
+ border-radius: 5px;
+margin: 0px 100px;
+  align-items: center;
+  box-sizing: border-box;
+  border: #00B98E 1px dashed;
+ 
+  position: absolute;
+}
 
+.contact .img {
+  width: 40%;
+ 
+}
+ .contact .img img{
+  width: 100%;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+ .contact .text{
+  width: 50%;
+  align-items: center;
+ 
+}
+ .contact .text .h1{
+  color: #0E2E50;
+ /* position: relative;
+  bottom: 60px;*/
+  font-size: 35px;
+  width: 100%;
+  
+}
+.contact .text p{
+  width: 100%;
+  color: #666565;
+  margin-top: 15px;
+}
+.contact .button{
+  display: flex;
+  
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+}
+.contact .button .call{
+  width: 150px;
+  background-color: #00b98e;
+  border: 1px solid #00B98E;
+  color: white;
+  height: 50px;
+}
+.contact .button .get{
+  background-color: #0E2E50;
+  border: #0E2E50 1px solid;
+  width: 200px ;
+  color: white;
+}
