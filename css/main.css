@@ -1631,7 +1631,7 @@ margin: 40px 100px;
   background-color:  #ffffff;
   font-weight: 200;
   color: #00b98e;
-  border-radius:5px ;
+  border-radius:5px 5px 0 0;
   cursor: pointer;
 }
 .page .all-page .Card .row .contentCard .contantCard h3{
