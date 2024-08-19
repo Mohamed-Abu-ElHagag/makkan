@@ -1463,21 +1463,29 @@ header .hero .content-hero .img-hero img {
     color: #fff;
     margin-top: 20px;
 }
-<<<<<<< HEAD
 .style-contact{
   text-align: center;
   border-radius: 5px;
-  
   display: flex;
   padding: 0;
   box-sizing: border-box;
  background-color: #00B98E;
+ position: relative;
+}
+.frameContact{
+  width: 103%;
+  position: absolute;
+  border: 20px solid #effdf5;
+  height: 111%;
+  border-radius: 5px;
+  background-color: transparent;
+  z-index: -1;
 }
  .contact{
   display: flex;
   justify-content: space-around;
  border-radius: 5px;
-margin: 0px 100px;
+margin: 40px 100px;
   align-items: center;
   box-sizing: border-box;
   border: #00B98E 1px dashed;
@@ -1513,11 +1521,11 @@ margin: 0px 100px;
   margin-top: 15px;
 }
 .contact .button{
-  display: flex;
-  
-  justify-content: space-between;
+  display: flex; 
+  justify-content: space-around;
+  gap: 10px;
   text-align: center;
-  width: 100%;
+  width: 40%;
   margin-top: 15px;
 }
 .contact .button .call{
@@ -1526,14 +1534,18 @@ margin: 0px 100px;
   border: 1px solid #00B98E;
   color: white;
   height: 50px;
+  border-radius: 5px;
+}
+.contact .button i{
+  margin-right: 5px;
 }
 .contact .button .get{
   background-color: #0E2E50;
   border: #0E2E50 1px solid;
   width: 200px ;
   color: white;
+  border-radius: 5px;
 }
-=======
 .place:hover img {
  box-shadow: .5px .5px 20px #00b98e7d;
 }
@@ -2006,4 +2018,4 @@ border-right: none;
   }
 
   }
->>>>>>> 39a7074ff2e78a5fd3cf43a35d21e4633ad8783b
+
