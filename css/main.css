@@ -6,8 +6,9 @@
   scroll-behavior: smooth !important;
 }
 body {
-  height: 30000px;
-  
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
 header {
   position: relative;
@@ -1466,31 +1467,23 @@ header .hero .content-hero .img-hero img {
 .style-contact{
   text-align: center;
   border-radius: 5px;
-  display: flex;
+  border: 20px solid #effdf5;
   padding: 0;
   box-sizing: border-box;
- background-color: #00B98E;
- position: relative;
+width: auto;
+margin: 40px 100px;
 }
-.frameContact{
-  width: 103%;
-  position: absolute;
-  border: 20px solid #effdf5;
-  height: 111%;
-  border-radius: 5px;
-  background-color: transparent;
-  z-index: -1;
-}
+
  .contact{
   display: flex;
   justify-content: space-around;
  border-radius: 5px;
-margin: 40px 100px;
+
   align-items: center;
   box-sizing: border-box;
   border: #00B98E 1px dashed;
  
-  position: absolute;
+
 }
 
 .contact .img {
@@ -1685,6 +1678,169 @@ border-right: none;
   border-radius: 5px;
   margin-top: 20px;
 }
+.people {
+  text-align: center;
+  margin-top: 10px;
+}
+.people .text{
+
+}
+.people .text h1{
+  color: #0E2E50;
+  margin-top: 15px;
+}
+.people .text p{
+  margin-top: 15px;
+  color: #666565;
+}
+.people .photo{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+ 
+}
+.people .photo .team{
+  width: 22%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 10px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.people .photo .team .person .image{
+  text-align: center;
+}
+.people .photo .team .person img{
+  width: 100%;
+}
+.people .photo .team .person .icon{
+  text-align: center;
+ z-index: 1;
+margin-bottom: 20px;
+}
+.people .photo .team .person .icon a {
+  border-radius:50% ;
+ box-sizing: border-box;
+ width: 90px;
+ padding: 10px;
+ align-items: center;
+ 
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.22) 1px 1px;
+  transition: all 0.2s;
+}
+.people .photo .team .person .icon a:hover{
+  background-color: #00B98E;
+ 
+
+}
+.people .photo .team .person .icon i{
+  color: #00B98E;
+  font-size: 18px;
+}
+.people .photo .team .person .icon i:hover{
+  color: white;
+}
+
+.people .photo .team h5{
+  color: #0E2E50;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.photo .team  p{
+  color:#666565;
+  margin: 10px;
+}
+footer {
+  background-color: #0E2E50;
+  height: 100%;
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 0;
+  
+}
+footer .row{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+footer .row .div1{
+  width: 22%;
+  margin-top: 90px;
+}
+footer .row .div1 h4{
+  color: white;
+  font-size: 18px;
+}
+footer .row .div1 p{
+  color: #666565;
+  margin: 15px;
+}
+footer .row .div1 .row-img{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+footer .row .div1 .row-img img{
+  width: 30%;
+  margin-top: 5px;
+  border: #c8e8e1 4px solid;
+}
+footer .row .div1 input{
+  background-color: #0E2E50;
+  border-radius: 5px;
+  padding: 5px 5px 5px 10px;
+  border: white 1px solid;
+  width: 200px;
+  height: 50px;
+}
+footer .row .div1 .position{
+  position: relative;
+}
+footer .row .div1 input:hover{
+  outline: #b2e0d5 3px solid;
+}
+footer .row .div1 button{
+  background-color:#00B98E;
+  border-radius: 5px;
+  border: white 1px solid;
+  width: 70px;
+  height: 35px;
+  color: white;
+ position: absolute;
+ top: 8px;
+ right:73px;
+ border: none;
+
+}
+footer .row .div1 button:hover{
+  outline: #b2e0d5 3px solid;
+}
+footer .line{
+  border: #66656577 0.5px solid;
+  width: 60%;
+margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+}
+footer .last-sec{
+  
+}
+footer .last-sec p{
+  color: #666565;
+
+}
+footer .last-sec span{
+  color: white;
+}
+footer .foot{
+  height: 40px;
+  background-color: #0E2E50;
+}
+
 
 /* *************** MEDIA QUERIES *************** */
 @media (max-width: 1208px) {
